@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.3)
+  ),
+  url("https://images.pexels.com/photos/960137/pexels-photo-960137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position:center;
+}
+
+
+form{
+  background-color: #fff;
+  padding: 0px  60px;
+}
+
+h1{
+  color:rgb(165, 42, 42);
+}
+
+button{
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border:none;
+  background-color: rgb(165, 42, 42);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
